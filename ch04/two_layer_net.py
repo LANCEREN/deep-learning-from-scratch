@@ -52,6 +52,7 @@ class TwoLayerNet:
         
         return grads
         
+    # numerical_gradient高级版，在ch05中
     def gradient(self, x, t):
         W1, W2 = self.params['W1'], self.params['W2']
         b1, b2 = self.params['b1'], self.params['b2']
